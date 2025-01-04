@@ -16,6 +16,7 @@ namespace new_project
         
         
     }
+    Console.WriteLine(A+B)
     public class Dog : Abstraction
     { 
         public int count { get; set; }
