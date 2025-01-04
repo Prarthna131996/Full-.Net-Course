@@ -822,5 +822,8 @@ catch (Exception ex)
 {
     throw ; // Stack trace: DivideByZeroException at 'throw ex' location
 }
+int one = 10;
+int two = 0;
+Console.WriteLine(one + two);
 
 Console.ReadLine();
